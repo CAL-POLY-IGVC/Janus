@@ -6468,37 +6468,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="2.54" y="27.94" size="3.81" layer="94">&gt;ORGANIZATION</text>
 <text x="56.642" y="7.62" size="2.54" layer="94">&gt;AUTHOR1</text>
 </symbol>
-<symbol name="PARTLIST">
-<wire x1="6.35" y1="0" x2="6.35" y2="45.72" width="0.254" layer="94"/>
-<wire x1="6.35" y1="45.72" x2="6.35" y2="48.26" width="0.254" layer="94"/>
-<wire x1="6.35" y1="48.26" x2="12.7" y2="48.26" width="0.254" layer="94"/>
-<wire x1="12.7" y1="48.26" x2="22.86" y2="48.26" width="0.254" layer="94"/>
-<wire x1="22.86" y1="48.26" x2="43.18" y2="48.26" width="0.254" layer="94"/>
-<wire x1="43.18" y1="48.26" x2="68.58" y2="48.26" width="0.254" layer="94"/>
-<wire x1="68.58" y1="48.26" x2="99.06" y2="48.26" width="0.254" layer="94"/>
-<wire x1="99.06" y1="48.26" x2="99.06" y2="45.72" width="0.254" layer="94"/>
-<wire x1="99.06" y1="45.72" x2="99.06" y2="0" width="0.254" layer="94"/>
-<wire x1="99.06" y1="0" x2="68.58" y2="0" width="0.254" layer="94"/>
-<wire x1="68.58" y1="0" x2="43.18" y2="0" width="0.254" layer="94"/>
-<wire x1="43.18" y1="0" x2="22.86" y2="0" width="0.254" layer="94"/>
-<wire x1="22.86" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
-<wire x1="12.7" y1="0" x2="6.35" y2="0" width="0.254" layer="94"/>
-<wire x1="6.35" y1="45.72" x2="99.06" y2="45.72" width="0.254" layer="94"/>
-<text x="7.112" y="45.974" size="1.778" layer="94">Part</text>
-<text x="13.462" y="45.974" size="1.778" layer="94">Value</text>
-<wire x1="12.7" y1="48.26" x2="12.7" y2="0" width="0.254" layer="94"/>
-<wire x1="22.86" y1="48.26" x2="22.86" y2="0" width="0.254" layer="94"/>
-<text x="23.622" y="45.974" size="1.778" layer="94">Device</text>
-<wire x1="43.18" y1="48.26" x2="43.18" y2="0" width="0.254" layer="94"/>
-<text x="69.342" y="45.974" size="1.778" layer="94">Description</text>
-<text x="7.112" y="44.45" size="1.27" layer="94" align="top-left">&gt;PARTS</text>
-<text x="13.462" y="44.45" size="1.27" layer="94" align="top-left">&gt;PARTVAL</text>
-<text x="23.622" y="44.45" size="1.27" layer="94" align="top-left">&gt;DEVICE</text>
-<text x="69.342" y="44.45" size="1.27" layer="94" align="top-left">&gt;DESCRIPT</text>
-<wire x1="68.58" y1="48.26" x2="68.58" y2="0" width="0.254" layer="94"/>
-<text x="43.942" y="45.974" size="1.778" layer="94">Package</text>
-<text x="43.942" y="44.45" size="1.27" layer="94" align="top-left">&gt;Package</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LETTER_L" prefix="FRAME" uservalue="yes">
@@ -6507,7 +6476,6 @@ LETTER landscape</description>
 <gates>
 <gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
 <gate name="G$2" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
-<gate name="G$3" symbol="PARTLIST" x="48.26" y="0" addlevel="must"/>
 </gates>
 <devices>
 <device name="">
@@ -6523,84 +6491,13 @@ LETTER landscape</description>
 <attributes>
 <attribute name="AUTHOR" value="Jordan Jones"/>
 <attribute name="AUTHOR1" value="Gabriel Maraboto"/>
-<attribute name="DESCRIPT" value=" 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Single Two Input XOR 
-Single One Input NOT 
-555 Timer 
-Quad Two Input AND "/>
-<attribute name="DEVICE" value="CAPACITOR 
-CAPACITOR 
-1N4148X-TP 
-TLP152 
-TLP152 
-TLP152 
-DMN6140L-7 
-DMN6140L-7 
-RESISTOR 
-RESISTOR 
-RESISTOR 
-RESISTOR 
-74LVC1G86W5-7 
-74HCT1G14GW,125 
-NE555S-13DICT-ND 
-SN74LV08APWR "/>
+<attribute name="DESCRIPT" value="                        Single Two Input XOR  Single One Input NOT  555 Timer  Quad Two Input AND "/>
+<attribute name="DEVICE" value="CAPACITOR  CAPACITOR  1N4148X-TP  TLP152  TLP152  TLP152  DMN6140L-7  DMN6140L-7  RESISTOR  RESISTOR  RESISTOR  RESISTOR  74LVC1G86W5-7  74HCT1G14GW,125  NE555S-13DICT-ND  SN74LV08APWR "/>
 <attribute name="DOCNUM" value="1"/>
 <attribute name="ORGANIZATION" value="CAL POLY IGVC"/>
-<attribute name="PACKAGE" value="C0603 
-C0603 
-SOD523_SC79 
-SOIC-6-5 
-SOIC-6-5 
-SOIC-6-5 
-SOT-23 
-SOT-23 
-R0603 
-R0603 
-R0603 
-R0603 
-SOT-25 
-SOT-353 
-SO-8 
-TSSOP-14 "/>
-<attribute name="PARTS" value="C1 
-C2 
-D1 
-OK1 
-OK2 
-OK3 
-Q1 
-Q2 
-R1 
-R2 
-R3 
-R4 
-U1 
-U2 
-U3 
-U4 "/>
-<attribute name="PARTVAL" value=".01uF 
-100nF 
- 
- 
- 
- 
- 
- 
-330ohm 
-330ohm 
-330ohm 
-1Mohm   "/>
+<attribute name="PACKAGE" value="C0603  C0603  SOD523_SC79  SOIC-6-5  SOIC-6-5  SOIC-6-5  SOT-23  SOT-23  R0603  R0603  R0603  R0603  SOT-25  SOT-353  SO-8  TSSOP-14 "/>
+<attribute name="PARTS" value="C1  C2  D1  OK1  OK2  OK3  Q1  Q2  R1  R2  R3  R4  U1  U2  U3  U4 "/>
+<attribute name="PARTVAL" value=".01uF  100nF              330ohm  330ohm  330ohm  1Mohm   "/>
 <attribute name="REV" value="1.0.1"/>
 </attributes>
 <variantdefs>
@@ -6646,16 +6543,15 @@ U4 "/>
 <text x="60.96" y="114.3" size="5.08" layer="94">Isolation Circuitry</text>
 <text x="185.42" y="114.3" size="5.08" layer="94">Logic Circuitry</text>
 <text x="172.72" y="40.64" size="5.08" layer="94">Solenoid Delay Circuitry</text>
-<text x="58.42" y="50.8" size="5.08" layer="94">Solenoid Control</text>
+<text x="58.928" y="59.944" size="5.08" layer="94">Solenoid Control</text>
 <text x="1.9685" y="60.0075" size="5.08" layer="94">Board To Board</text>
 <text x="1.8415" y="1.651" size="5.08" layer="94">Board to Cart</text>
 <wire x1="54.61" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="94"/>
 <wire x1="119.38" y1="109.22" x2="248.92" y2="109.22" width="0.1524" layer="94"/>
 <wire x1="0" y1="58.42" x2="54.61" y2="58.42" width="0.1524" layer="94"/>
-<wire x1="54.864" y1="48.26" x2="54.61" y2="48.26" width="0.1524" layer="94"/>
-<wire x1="54.61" y1="48.26" x2="54.61" y2="58.42" width="0.1524" layer="94"/>
 <wire x1="54.61" y1="58.42" x2="54.61" y2="109.22" width="0.1524" layer="94"/>
-<wire x1="119.38" y1="48.26" x2="119.38" y2="109.22" width="0.1524" layer="94"/>
+<wire x1="119.38" y1="0" x2="119.38" y2="109.22" width="0.1524" layer="94"/>
+<wire x1="54.61" y1="58.42" x2="54.61" y2="0" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="U4" gate="G$1" x="208.28" y="144.78"/>
@@ -6673,7 +6569,7 @@ U4 "/>
 <instance part="SUPPLY6" gate="GND" x="139.7" y="132.08"/>
 <instance part="SUPPLY9" gate="GND" x="167.64" y="99.06" rot="R180"/>
 <instance part="SUPPLY10" gate="GND" x="187.96" y="58.42"/>
-<instance part="Q2" gate="G$1" x="86.36" y="71.12"/>
+<instance part="Q2" gate="G$1" x="86.36" y="78.74"/>
 <instance part="Q1" gate="G$1" x="86.36" y="91.44"/>
 <instance part="U2" gate="G$1" x="175.26" y="152.4"/>
 <instance part="SUPPLY8" gate="GND" x="167.64" y="144.78"/>
@@ -6692,7 +6588,6 @@ U4 "/>
 <instance part="SUPPLY5" gate="GND" x="93.98" y="132.08"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
-<instance part="FRAME1" gate="G$3" x="48.26" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -6814,9 +6709,9 @@ U4 "/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="86.36" y1="76.2" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<label x="88.9" y="78.74" size="1.016" layer="95" xref="yes"/>
+<wire x1="86.36" y1="83.82" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="86.36" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
+<label x="88.9" y="86.36" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FOR_CTRL" class="0">
@@ -6985,8 +6880,8 @@ U4 "/>
 <net name="REVSOL" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="91.44" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
-<label x="93.98" y="71.12" size="1.016" layer="95" xref="yes"/>
+<wire x1="91.44" y1="78.74" x2="93.98" y2="78.74" width="0.1524" layer="91"/>
+<label x="93.98" y="78.74" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="NEUTRAL" class="0">
@@ -7054,10 +6949,10 @@ U4 "/>
 <net name="N$1" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="81.28" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="81.28" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="91.44" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="91.44" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DELAYED" class="0">
