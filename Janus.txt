@@ -1,0 +1,19 @@
+Partlist exported from C:/Users/Jordan/Dropbox/Eagle/Janus/Janus.sch at 9/29/2015 12:15 PM
+
+Part Value            Device           Package     Description                
+C1   .01uF            C-EUC0603        C0603       CAPACITOR, European symbol 
+C2   100nF            C-EUC0603        C0603       CAPACITOR, European symbol 
+D1   1N4148X-TP       1N4148X-TP       SOD523_SC79                            
+OK1  TLP152           TLP152           6-SOIC-5                               
+OK2  TLP152           TLP152           6-SOIC-5                               
+OK3  TLP152           TLP152           6-SOIC-5                               
+Q1   DMN6140L-7       DMN6140L-7       SOT23                                  
+Q2   DMN6140L-7       DMN6140L-7       SOT23                                  
+R1   330ohm           R-US_R0603       R0603       RESISTOR, American symbol  
+R2   330ohm           R-US_R0603       R0603       RESISTOR, American symbol  
+R3   330ohm           R-US_R0603       R0603       RESISTOR, American symbol  
+R4   1Mohm            R-US_R0603       R0603       RESISTOR, American symbol  
+U1   74LVC1G86W5-7    74LVC1G86W5-7    SOT-25      Single Two Input XOR       
+U2   74HCT1G14GW,125  74HCT1G14GW,125  SOT-353     Single One Input NOT       
+U3   NE555S-13DICT-ND NE555S-13DICT-ND SO-8        555 Timer                  
+U4   SN74LV08APWR     SN74LV08APWR     TSSOP-14    Quad Two Input AND         
